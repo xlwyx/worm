@@ -2,6 +2,25 @@
 super + ctrl + r
 	worm
 
+# open terminal
+super + Return
+
+# program launcher
+super + @space
+    dmenu_run
+
+# dmenu-script
+super + p
+  ./mycelaneos
+
+# dmenu-shutdown
+super + shift + p
+  ./shutdown
+
+# screenshot
+#super + x
+#    flameshot gui
+
 # Quit worm
 ctrl + alt + q
 	pkill worm
